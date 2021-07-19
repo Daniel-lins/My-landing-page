@@ -8,19 +8,19 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Daniel    ',
+  lastName: 'Lins',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/daniel-lins',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://www.linkedin.com/in/daniel-lins-6a554a1a0/',
     },
     {
       icon: 'fa-twitter',
@@ -33,7 +33,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
+  email: 'Daniel_lins1@hotmail.com',
   phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  address: 'Duque de Caxias,RJ-Brasil',
 };

@@ -23,10 +23,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+           Estudante de Análise e Desenvolvimento de Sistemas
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -48,9 +45,9 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiênncia</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Senior Web Developer</h3>
               <div className="subheading mb-3">Intelitec Solutions</div>
@@ -116,7 +113,7 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">September 2008 - June 2010</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -127,21 +124,21 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Educação</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Universidade Estácio de Sá</h3>
+              <div className="subheading mb-3">Analise e desenvolvimento de Sistemas</div>
+              {/* <div>Computer Science - Web Development Track</div>
+              <p>GPA: 3.23</p> */}
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">Fevereiro de 2021- Atualmente</span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">James Buchanan High School</h3>
               <div className="subheading mb-3">Technology Magnet Program</div>
@@ -150,7 +147,7 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2002 - May 2006</span>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -161,10 +158,10 @@ const IndexPage = () => (
         id="skills"
       >
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
+          <h2 className="mb-5">Habilidades</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+          PRINCIPAIS LINGUAGENS DE PROGRAMAÇÃO E FERRAMENTAS
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
@@ -176,9 +173,9 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-js-square"></i>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <i className="fab fa-angular"></i>
-            </li>
+            </li> */}
             <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
@@ -188,18 +185,18 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <i className="fab fa-less"></i>
-            </li>
+            </li> */}
             <li className="list-inline-item">
               <i className="fab fa-wordpress"></i>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
+            </li> */}
+            {/* <li className="list-inline-item">
               <i className="fab fa-grunt"></i>
-            </li>
+            </li> */}
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
             </li>
@@ -209,19 +206,19 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Design Responsivo
             </li>
-            <li>
+            {/* <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
-            </li>
-            <li>
+          multi Browser Test &amp; Debugging
+            </li> */}
+            {/* <li>
               <i className="fa-li fa fa-check"></i>
               Cross Functional Teams
-            </li>
+            </li> */}
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Metodologia Scrum
             </li>
           </ul>
         </div>
@@ -234,18 +231,12 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5">Interesses</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+            Além de ser apaixonado por tecnologia, amo jogar jogos online, assistir filmes/séries e animes gosto de jogar basquete
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+   
           </p>
         </div>
       </section>
@@ -257,27 +248,25 @@ const IndexPage = () => (
         id="awards"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Conquistas &amp; Certificados</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer
+              Botcamp HTML Web Developer
             </li>
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification
+              Botcamp SPTech Desenvolvimento Front-end
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Botcamp Become Remote
             </li>
             <li>
-              <i className="fa-li fa fa-trophy text-warning"></i>1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
+              <i className="fa-li fa fa-trophy text-warning"></i>
+              Aceleração Global Dev #11 - Avanade
             </li>
-            <li>
+            {/* <li>
               <i className="fa-li fa fa-trophy text-warning"></i>2<sup>nd</sup>
               Place - University of Colorado Boulder - Emerging Tech Competition
               2008
@@ -289,7 +278,7 @@ const IndexPage = () => (
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>3<sup>rd</sup>
               Place - James Buchanan High School - Hackathon 2005
-            </li>
+            </li> */}
           </ul>
         </div>
       </section>
