@@ -22,18 +22,18 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/daniel-lins-6a554a1a0/',
     },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
+    // { 
+    //   icon: 'fa-twitter',
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/onlyanubhav',
+    // },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/daniel.lins.543/',
     },
   ],
   email: 'Daniel_lins1@hotmail.com',
-  phone: '000-00000',
+  phone: '+55 21 97544-7444',
   address: 'Duque de Caxias,RJ-Brasil',
 };

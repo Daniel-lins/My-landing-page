@@ -23,7 +23,8 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-           Estudante de Análise e Desenvolvimento de Sistemas
+           Desenvolvedor Front-end e estudante de analise e desenvolvimento de sistemas altualmente focado em React.
+           Tenho projetos feito em 
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -45,8 +46,8 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experiênncia</h2>
-
+          <h2 className="mb-5">Experiência</h2>
+            
           {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Senior Web Developer</h3>
