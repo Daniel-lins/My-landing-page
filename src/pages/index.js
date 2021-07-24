@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import pj1 from '../pages/pj1.gif'
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -24,7 +25,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
            Desenvolvedor Front-end e estudante de analise e desenvolvimento de sistemas altualmente focado em React.
-           Tenho projetos feito em 
+           
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -48,21 +49,17 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Experiência</h2>
             
-          {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Pokedex</h3>
+              <div className="subheading mb-3">HTML/CSS/JavaScript</div>
               <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
+                Pokedex feita em em com HTML,CSS e Javascript onde é consumida uma API com informações dos pokemons
               </p>
+              <img src={pj1}></img>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary"><a href="https://github.com/Daniel-lins/pokedex-master">Portifolio do projeto</a></span>
             </div>
           </div>
 
@@ -114,7 +111,7 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">September 2008 - June 2010</span>
             </div>
-          </div> */}
+          </div> 
         </div>
       </section>
 
