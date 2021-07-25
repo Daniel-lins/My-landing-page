@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import pj1 from '../pages/pj1.gif'
+import HP1 from '../pages/HP1.gif'
+import RG1 from '../pages/RG1.gif'
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -58,46 +60,46 @@ const IndexPage = () => (
               </p>
               <img src={pj1}></img>
             </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary"><a href="https://github.com/Daniel-lins/pokedex-master">Portifolio do projeto</a></span>
+            <div className="resume-date text-md-right link">
+            <span className="text-primary "><a href="https://github.com/Daniel-lins/pokedex-master">Repositório do Projeto</a></span>
+          <span className="text-primary"><a href="https://pokedex-master.vercel.app/">Link projeto</a></span> 
+           </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Harry Potter Flix</h3>
+              <div className="subheading mb-3">HTML/CSS/JAVASCRIPT/JQUERY</div>
+              <p>
+                Harry potter flix é uma aplicação front-end feita com base no projeto "clone da netflix" da digital innovation one ,no botcamp html web developer, Porém reformulado para um layout com o catálogo de apenas filmes da saga Harry Potter.
+              </p>
+              <img src={HP1}></img>
+              
+            </div>
+            <div className="resume-date text-md-right link">
+              <span className="text-primary"><a href="https://github.com/Daniel-lins/Harrypotterflix-Dio">Repositório do Projeto </a></span>
+              <span className="text-primary"><a href="https://harrypotterflix-dio.vercel.app/">Link projeto </a></span>
+              
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Resgate Game</h3>
+              <div className="subheading mb-3">HTML/CSS/JAVASCRIPT/JQUERY</div>
               <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
+              Jogo 2D onde temos o objetivo de destruir os inimigos e salvar os aliados. Na criação do game usamos HTML,CSS e JavaScript/JQuery e JQuery Collisio
               </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+        
+            <img src={RG1}></img>
+                </div>
+            <div className="resume-date text-md-right link">
+              <span className="text-primary"><a href="https://github.com/Daniel-lins/resgate-game">Repositório do Projeto</a></span>
+              <span className="text-primary"><a href="https://resgate-game.vercel.app/">Link projeto</a></span>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+          {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
               <h3 className="mb-0">Web Design Intern</h3>
               <div className="subheading mb-3">Shout! Media Productions</div>
@@ -111,7 +113,7 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">September 2008 - June 2010</span>
             </div>
-          </div> 
+          </div>  */}
         </div>
       </section>
 
@@ -231,7 +233,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interesses</h2>
           <p>
-            Além de ser apaixonado por tecnologia, amo jogar jogos online, assistir filmes/séries e animes gosto de jogar basquete
+            Além de ser apaixonado por tecnologia, amo jogar jogos online, assistir filmes/séries e jogar basquete
           </p>
           <p className="mb-0">
    

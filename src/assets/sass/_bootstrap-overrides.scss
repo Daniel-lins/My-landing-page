@@ -3,7 +3,14 @@
 }
 
 .text-primary {
+ 
   color: $primary !important;
+   a {text-decoration: none;}
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
 }
 
 a {
